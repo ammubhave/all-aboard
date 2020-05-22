@@ -25,6 +25,8 @@ If you have already cloned the repository without initializing the submodules, r
 git submodule update --init
 ```
 
+Now run `npm install` in both server and client directories.
+
 You'll find instructions both [server](https://github.com/ammubhave/all-aboard-server/blob/master/README.md) and [client](https://github.com/ammubhave/all-aboard-client/blob/master/README.md) in their respective README.md files.
 
 The client requires the server to be already running, otherwise it won't be able to connect to it. The web client uses the production instance of the server by default. If you are developing locally, you will have to edit the SERVER_URI variable to point to your local instance.
